@@ -72,6 +72,10 @@ html, body {
     margin-right: 0;
   }
 
+  .demo__item_type_translate .demo__icon {
+    transition: transform .4s ease-out;
+  }
+
   .demo__item_type_translate:hover .demo__icon {
       transform: translate(10px, 0);
   } 
